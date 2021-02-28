@@ -1,0 +1,11 @@
+.data {
+    width: 300px;
+    margin-top: 5px;
+}
+
+.send_button {
+    width: 100px;
+    height: 10%;
+    margin-top: 30px;
+    background-color: #61746e;
+}

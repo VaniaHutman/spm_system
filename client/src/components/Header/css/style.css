@@ -1,0 +1,23 @@
+.Header {
+    background-color: #6a7e78;
+    margin: right;
+    text-align: right;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.logo {
+    font-size: 250%;
+    color: #fff;
+}
+
+.Menu {
+    width: 100%;
+    margin: right;
+    text-align: right;
+    color: #c1e2d8;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 130%;
+}

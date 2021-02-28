@@ -1,0 +1,144 @@
+.header {
+    height: 5%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: linear-gradient(to bottom, #61746e, #495652);
+    color: #ffffff;
+    font-size: 150%;
+    display: flex;
+}
+
+h1 {
+    font-size: 120%;
+}
+
+p {
+    padding-top: 3%;
+    font-size: 80%;
+}
+
+.header_text_col {
+    margin-left: 5%;
+    padding-top: 5%;
+    float: left;
+    width: 45%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_img_col {
+    margin-right: 5%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.header_img {
+    height: 680;
+    width: 1160;
+}
+
+.line {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, #acb2b2, #dbe1e1);
+}
+
+.cards{
+    width: 30%;
+    height: 300px;
+    margin-top: 5%;
+    float: left;
+    background-color: #fff;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    display: inline;
+    flex-direction: row;
+}
+
+.cards_img {
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.icons {
+    width: 40%;
+}
+
+.caption {
+    width: 60%;
+    padding-top: 10%;
+    margin-left: 40%;
+    font-size: 140%;
+}
+
+.description {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.start{
+    width: 97%;
+    height: 150px;
+    margin-top: 5%;
+    float: left;
+    background-color: #fff;
+    align-items: center;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+}
+
+.come_to_us {
+    padding-top: 3%;
+    font-size: 120%;
+}
+
+.span-shadow {
+    padding-top: 0%;
+    text-align:center;
+}
+.span-shadow span {
+  display: inline-block;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  transition: .2s linear;
+}
+
+.span-shadow span:nth-child(1) {
+    background:#647972
+}
+.span-shadow span:nth-child(1):hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #647972;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: "ChervilRegular"; 
+    src: url("../../../fonts/Chervil.otf") format("opentype");
+} 
+
+@font-face {
+    font-family: "Young_Heart"; 
+    src: url("../../../fonts/Young_Heart.otf") format("opentype");
+} 

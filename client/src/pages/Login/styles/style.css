@@ -1,0 +1,24 @@
+.login_panel {
+    height: 460px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_text {
+    font-size: 120%;
+}
+
+.input_text {
+    margin-top: 2px;
+    width: 300px;
+}
+
+.login_button {
+    width: 100px;
+    height: 10%;
+    margin-top: 2%;
+    background-color: #61746e;
+}
